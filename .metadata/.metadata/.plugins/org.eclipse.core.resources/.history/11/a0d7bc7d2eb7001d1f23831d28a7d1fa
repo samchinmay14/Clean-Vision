@@ -1,0 +1,14 @@
+package com.example.demo.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.example.demo.repositories.RoleRepository;
+
+@Repository
+public class RoleService 
+{
+	@Autowired
+	private RoleRepository role_repo;
+
+}

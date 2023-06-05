@@ -1,0 +1,8 @@
+package com.example.demo.dummyentities;
+
+public class LoginCheck 
+{
+	private String uid;
+	private String password;
+
+}

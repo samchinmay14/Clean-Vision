@@ -1,0 +1,12 @@
+package com.example.demo.services;
+
+import org.springframework.stereotype.Repository;
+
+import com.example.demo.repositories.RoleRepository;
+
+@Repository
+public class RoleService 
+{
+	private RoleRepository role_repo;
+
+}
